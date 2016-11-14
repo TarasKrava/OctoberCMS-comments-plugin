@@ -1,0 +1,19 @@
+fields:
+    author:
+        label: 'taras.comments::lang.comment.author'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    content:
+        label: 'taras.comments::lang.comment.content'
+        size: small
+        oc.commentPosition: ''
+        span: left
+        type: richeditor
+    status:
+        label: 'taras.comments::lang.comment.status'
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: left
+        type: dropdown

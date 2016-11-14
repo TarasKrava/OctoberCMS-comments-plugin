@@ -1,0 +1,11 @@
+name: Comments
+modelClass: Taras\Comments\Models\Comments
+form: $/taras/comments/models/comments/fields.yaml
+defaultRedirect: taras/comments/comments
+create:
+    redirect: 'taras/comments/comments/update/:id'
+    redirectClose: taras/comments/comments
+update:
+    redirect: taras/comments/comments
+    redirectClose: taras/comments/comments
+preview: {  }

@@ -1,0 +1,4 @@
+title: Comments
+modelClass: Taras\Comments\Models\Comments
+toolbar:
+    buttons: reorder_toolbar

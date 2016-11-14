@@ -1,0 +1,28 @@
+{% for post in posts %}
+<li>
+    <div class="comment" id="comment-{{post.id}}">
+        <div class="comment-avatar">
+            {{post.avatar|raw}}
+        </div>
+        <div class="comment-content">
+            <div class="comment-header">
+                <span class="comment-name">{{post.name}}</span>
+                <a class="comment-date" href="#comment-{{post.id}}">
+                    {{post.created_at.diffForHumans}}
+                </a>
+            </div>
+            <div>{{post.content|raw}}</div>
+            <div class="comment-footer">
+                <a class="comment-reply" onclick="Comment.replay(this,'{{post.id}}')">Reply</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    {% if post.children %}
+    <ul>
+        {% partial "commentsPost::list" posts=post.children %}
+    </ul>
+    {% endif %}
+</li>
+{% endfor %}

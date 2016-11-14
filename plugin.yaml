@@ -1,0 +1,11 @@
+plugin:
+    name: 'taras.comments::lang.plugin.name'
+    description: 'taras.comments::lang.plugin.description'
+    author: Taras
+    icon: oc-icon-comments-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'taras.comments::lang.comment.comments'
+        url: taras/comments/comments
+        icon: icon-comments-o

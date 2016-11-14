@@ -1,0 +1,37 @@
+fields:
+
+    allow_guest:
+            span: left
+            label: taras.comments::lang.settings.allow_guest_label
+            commentAbove: taras.comments::lang.settings.allow_guest_above
+            type: switch
+
+    status:
+        span: right
+        label: taras.comments::lang.settings.status_label
+        commentAbove: taras.comments::lang.settings.status_above
+        type: dropdown
+
+    recaptcha_settings.section:
+        label:  taras.comments::lang.settings.section_recaptcha_label
+        type: section
+        comment:  taras.comments::lang.settings.section_recaptcha_comments
+
+    recaptcha_enabled:
+        label: taras.comments::lang.settings.recaptcha_label
+        commentAbove: taras.comments::lang.settings.recaptcha_comment
+        type: switch
+
+    site_key:
+        label: taras.comments::lang.settings.site_key_label
+        commentAbove: taras.comments::lang.settings.site_key_comment
+        span: left
+        type: text
+    secret_key:
+        label: taras.comments::lang.settings.secret_key_label
+        commentAbove: taras.comments::lang.settings.secret_key_comment
+        span: right
+        type: text
+
+
+

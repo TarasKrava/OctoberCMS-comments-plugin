@@ -1,0 +1,78 @@
+.comments ul {
+    list-style: none;
+}
+
+.comments ul:first-child {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.comment {
+    padding: 0.5em 0;
+}
+
+.comment .comment-avatar, .comment-content {
+    float: left;
+}
+
+.comment-avatar {
+    width: 65px;
+    height: 65px;
+}
+
+.comment-content {
+    margin-left: 15px;
+}
+
+#comment-text {
+    height: 100px;
+}
+
+.comment-avatar img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.comment-name {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.comment-date {
+    margin-left: 10px;
+}
+
+.comment-date, .comment-reply {
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cancel-comment-reply-link {
+    cursor: pointer;
+}
+
+.comment-date:hover, .comment-reply:hover {
+    text-decoration: none;
+}
+
+.comment-reply-title {
+    border-top: 4px solid #1a1a1a;
+    margin-bottom: 25px;
+    font-size: 25px;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.comment-reply-title small a {
+    border: 0;
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.comment-reply {
+
+}

@@ -1,0 +1,11 @@
+title: Comments
+modelClass: Taras\Comments\Models\Comments
+list: $/taras/comments/models/comments/columns.yaml
+recordUrl: 'taras/comments/comments/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
