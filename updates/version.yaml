@@ -1,2 +1,11 @@
 1.0.1:
     - 'Initialize plugin.'
+1.0.2:
+    - 'Updated table taras_comments_posts'
+    - builder_table_update_taras_comments_posts.php
+1.0.3:
+    - 'Updated table taras_comments_posts'
+    - builder_table_update_taras_comments_posts_2.php
+1.0.4:
+    - 'Updated table taras_comments_posts'
+    - builder_table_update_taras_comments_posts_3.php
