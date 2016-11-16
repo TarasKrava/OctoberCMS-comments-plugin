@@ -9,7 +9,7 @@ class BuilderTableUpdateTarasCommentsPosts extends Migration
     {
         Schema::table('taras_comments_posts', function($table)
         {
-            $table->string('url', 70);
+            $table->string('url', 70)->index();
             $table->dropColumn('type');
         });
     }
