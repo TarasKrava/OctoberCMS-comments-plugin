@@ -8,11 +8,12 @@ Users can login with RainLab.User plugin or guest.
  - Google recaptcha is optional, can enable in settings
  - Allow guests to comments
  - Set default status for add new comment
+
 **Installation**
 ----------
- - Add this plugin to a project.
- - Also You must install [RainLab.User](http://octobercms.com/plugin/rainlab-user) plugin.
- - Add Comments component to page.
+ 1. Add this plugin to a project.
+ 2. Also You must install [RainLab.User](http://octobercms.com/plugin/rainlab-user) plugin.
+ 3. Add Comments component to page.
 
 **Comments post**
 Use the commentsPost component to display a list comments on page. The component has the following variables:
