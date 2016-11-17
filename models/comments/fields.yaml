@@ -1,9 +1,11 @@
 fields:
-    author:
-        label: 'taras.comments::lang.comment.author'
-        oc.commentPosition: ''
-        span: left
-        type: text
+#    author:
+#        label: 'taras.comments::lang.comment.author'
+#        oc.commentPosition: ''
+#        span: left
+#        type: text
+#        readOnly: true
+#        context: update
     content:
         label: 'taras.comments::lang.comment.content'
         size: small

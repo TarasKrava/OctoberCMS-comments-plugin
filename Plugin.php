@@ -2,8 +2,15 @@
 
 use System\Classes\PluginBase;
 
+/**
+ * Class Plugin
+ * @package Taras\Comments
+ */
 class Plugin extends PluginBase
 {
+    /**
+     * @return array
+     */
     public function registerComponents()
     {
         return [
@@ -12,6 +19,9 @@ class Plugin extends PluginBase
         ];
     }
 
+    /**
+     * @return array
+     */
     public function registerSettings()
     {
         return [

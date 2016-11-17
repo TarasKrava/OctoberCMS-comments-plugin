@@ -1,8 +1,9 @@
 <?php return [
     'plugin' => [
-        'name' => 'comments',
-        'description' => '',
+        'name' => 'Comments',
+        'description' => 'Allows users comment content',
     ],
+    
     'comment' => [
         'author' => 'Author',
         'content' => 'Content',

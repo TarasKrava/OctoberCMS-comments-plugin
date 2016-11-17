@@ -1,12 +1,11 @@
 columns:
-    author:
-        label: 'taras.comments::lang.comment.author'
-        type: text
     content:
         label: 'taras.comments::lang.comment.content'
         type: text
     status:
         label: 'taras.comments::lang.comment.status'
         valueFrom: statusAdmin
-
+    url:
+        type: partial
+        path: ~/plugins/taras/comments/models/comments/_url_column.htm
 
