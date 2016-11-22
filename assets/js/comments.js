@@ -37,7 +37,7 @@ var Comment = function () {
         addComment: function (content) {
             var commentBlock = $('#comment-' + self.parent_id);
             if (self.parent_id == null) {
-                $('.comments ul').append(content);
+                $('.comments ul:eq(0)').append(content);
             } else if (commentBlock.next('ul').length) {
                 commentBlock.next('ul').append(content);
             } else {

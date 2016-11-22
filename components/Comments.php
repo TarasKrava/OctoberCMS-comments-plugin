@@ -132,7 +132,10 @@ class Comments extends ComponentBase
         $model = new CommentsModel();
         $model->content = strip_tags(post('content'));
         $model->url = $this->url;
-        $model->parent_id = post('parent_id');
+        $parent_id = post('parent_id');
+        if(is_numeric($parent_id)){
+            $model->parent_id = $parent_id; 
+        }
 
         if (Settings::get('allow_guest')) {
             $model->author = post('author');

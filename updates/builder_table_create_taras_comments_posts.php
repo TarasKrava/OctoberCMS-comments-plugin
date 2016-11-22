@@ -11,7 +11,7 @@ class BuilderTableCreateTarasCommentsPosts extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->integer('parent_id')->nullable();
+            $table->integer('parent_id')->nullable()->unsigned();
             $table->integer('user_id')->nullable();
             $table->integer('post_id')->nullable();
             $table->string('author', 50)->nullable();
